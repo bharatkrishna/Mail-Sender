@@ -1,0 +1,8 @@
+GMail Sender in Python/wxPython
+--------------------------------
+
+This is a tool I've made for myself in Python & used wxPython for the GUI.
+
+Purpose/Description:
+I share my mobile minutes with a friend and I send him a monthly statement by email with each person's share and with the bill attached.
+To semi-automate this process I hacked up this app which would calculate each person's share, generate the stetement and send the mail without me having to go to my Gmail inbox.
