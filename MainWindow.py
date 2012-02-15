@@ -203,7 +203,7 @@ class Frame1(wx.Frame):
         his_data= float(self.textCtrl4.GetValue())
         prev_bal= float(self.textCtrl5.GetValue())
         
-        call_charges_per_person = round(((total - my_sms - his_sms - his_data - prev_bal)/2),2)
+        call_charges_per_person = round(((total - my_sms - his_sms - his_data)/2),2)
         
         my_amt = call_charges_per_person + my_sms
         his_amt = call_charges_per_person + his_sms + his_data + prev_bal
